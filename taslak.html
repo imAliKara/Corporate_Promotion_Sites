@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="buyukfoto position-fixed">
+        <img src="./gallery/photo1.jpg">
+        <p></p>
+    </div>
+    <!------------------------- HEADER ------------------------->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo" src="logo.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hakkımızda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ürünler
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Laptoplar</a></li>
+                  <li><a class="dropdown-item" href="#">Monitörler</a></li>
+                  <li><a class="dropdown-item" href="#">Ses Sistemleri</a></li>
+                  <li><a class="dropdown-item" href="#">Harici Bellekler</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Ara" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Ara</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!------------------------- HEADER ------------------------->
+
+    <!------------------------- SLIDER ------------------------->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./gallery/photo1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Karahallı MYO</h5>
+              <p>Yeni eğitim öğretim dönemi başladı.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./gallery/photo2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Online Eğitim</h5>
+              <p>Çevrimiçi eğitim araçlarıyla eğitime devam ediliyor.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./gallery/photo1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>2022-2023 Bahar YY</h5>
+              <p>Bahar dönemimiz devam ediyor.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Önceki</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Sonraki</span>
+        </button>
+      </div>
+    <!------------------------- SLIDER -------------------------->
+
+    <!------------------------- GALLERY ------------------------->
+    <div class="container mt-5 fotolar">
+        <h3>GALERİ</h3><hr>
+        <img src="./gallery/photo1.jpg" alt="Karahallıda bahar">
+        <img src="./gallery/photo2.jpg" alt="Karahallıda son">
+        <img src="./gallery/photo1.jpg" alt="Hadi">
+        <img src="./gallery/photo1.jpg" alt="Karahallıda bahar">
+        <img src="./gallery/photo1.jpg" alt="Karahallıda bahar">
+        <img src="./gallery/photo1.jpg" alt="Karahallıda bahar">
+        <img src="./gallery/photo1.jpg" alt="Karahallıda bahar">
+        <img src="./gallery/photo1.jpg" alt="Karahallıda bahar">
+        <img src="./gallery/photo1.jpg" alt="Karahallıda bahar">
+    </div>
+    <!------------------------- GALLERY ------------------------->
+
+    <!------------------------- FOOTER -------------------------->
+    <div class="container">
+        <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 KARA Ltd. Şti., Tüm Hakkı Saklıdır</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img class="logo" src="logo.png" alt="">
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Anasayfa</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Hakkımızda</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Ürünler</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">İletişim</a></li>
+          </ul>
+        </footer>
+    </div>
+    <!------------------------- FOOTER -------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script>
+      $(".buyukfoto").click(function(){
+          $(this).fadeOut();
+      });
+
+      $(".fotolar img").click(function(){
+          var kucuksrc = $(this).attr("src");
+          var kucukyazi = $(this).attr("alt");
+          $(".buyukfoto img").attr("src",kucuksrc);
+          $(".buyukfoto p").text(kucukyazi);
+          $(".buyukfoto").fadeIn();
+      });
+  </script>
+</body>
+</html>

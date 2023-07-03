@@ -1,0 +1,90 @@
+.logo{
+    height: 100px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+
+.fotolar {
+    text-align: center;
+}
+
+.fotolar img {
+    width: 30%;
+    margin: 5px;
+    padding: 2px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: filter 1s;
+}
+
+.fotolar img:hover{
+    filter: saturate(3);
+}
+
+.buyukfoto {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+}
+
+.buyukfoto img {
+    margin-top: 100px;
+    width: 70%;
+    height: 70%;
+}
+
+.buyukfoto p {
+    display: inline-block;
+    width: 70%;
+    background: #fff;
+    padding: 25px 0 25px 0;
+}
+
+.details h3 {
+    text-align: center;
+}
+.details div{
+    text-align: justify;
+    min-height: 120px;
+}
+.details img {
+    padding: 2px;
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    float: left;
+    border: 1px solid #999;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+/*.navbar-nav a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+}
+.navbar-nav a:hover::after{
+    transform: scaleX(1);
+    transition: transform .5s;
+}*/
